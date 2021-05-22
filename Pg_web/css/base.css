@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/* importacion de la fuente Robot en google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;500;700&display=swap');
+/* importacion otra fuente */
+@font-face {
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf");
+  font-family: 'Polar';
+}
+:root{
+    --cimel1:#85c2a2;
+    --cimel2:#30553B;
+    
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+.sep{
+  padding: 5vmin 0;
+}
+/* -- nav -- */
+.container-fluid{
+  /* img logo */
+}
+
+.navcont{
+  background: rgb(56, 56, 56);
+}
+.navbar{
+  padding: 1rem 3rem;
+}
+.navbar-collapse {
+  padding: 7px 0;
+}
+.nav-rule{
+  padding: 0 0 3px;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+  color: #fff;
+  font-weight: 300;
+  padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+  color: rgb(204, 17, 17);
+  font-weight: 400;
+  padding: 0 0.9rem;
+}
+
+/* -- */
+.img--st{
+  width: 100%;
+  object-fit: cover;
+  height: 60vh;
+}
+/* -- */
+.txt--info{
+  text-align: center;
+  padding: 30px;
+}
+.txt--info h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+/* -- */
+.proyect-visualizacion{
+  background: rgb(56, 56, 56);
+  padding: 20px ;
+  box-shadow: 10px 2px 14px rgb(26, 26, 26);
+}
+.ctn-info-pf{
+  display: flex;
+  padding: 13px;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+}
+.cont--img__Pdestac{
+  display: flex;
+  justify-content: center;
+}
+.img1__Pdestac{
+  width: 100%;
+  padding: 20px 0;
+}
+.txt--proyectoD h1{
+  color: #000;
+  padding: 1em 0 20px;
+  font-size: 1.5em;
+}
