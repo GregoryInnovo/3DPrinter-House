@@ -23,13 +23,15 @@ body{
   line-height: 1.5;
 }
 .sep{
-  padding: 5vmin 0;
+  padding: 60px 0;
+  min-height: 300px;
 }
+
 /* -- nav -- */
 .container-fluid{
   /* img logo */
-}
 
+}
 .navcont{
   background: rgb(56, 56, 56);
 }
@@ -68,18 +70,105 @@ body{
   font-size: 30px;
   font-weight: 400;
 }
-/* -- */
-.proyect-visualizacion{
-  background: rgb(56, 56, 56);
-  padding: 20px ;
-  box-shadow: 10px 2px 14px rgb(26, 26, 26);
+
+/*  */
+
+.proyect-inf{
+
 }
-.ctn-info-pf{
+
+.txt-proyect-inf h1{
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #030303a6;
+}
+.section-heading{
+  text-align: center;
+  font-size: 64px;
+  color: #5f6b67;
+  margin: 0 0 70;
+}
+.container_team{
   display: flex;
-  padding: 13px;
-  background: rgb(255, 255, 255);
   justify-content: center;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
+.profile{
+  position: relative;
+  transition: all 0.3s;
+}
+.profile:hover{
+  transform: translateY(25px);
+}
+.profile img{
+  max-width: 130%;
+  padding: 0 80px;
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+.profile img:hover{
+  filter: drop-shadow(-20px 0 10px rgba(92, 92, 92, 0.1));
+  cursor: pointer;
+}
+.profile:not(:first-child) img{
+  margin-left: -20px;
+}
+.profile .name{
+  position: absolute;
+  background-color: #129b6d;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 100px;
+  bottom: -30px; 
+  left: 60%;
+  white-space: nowrap;
+  transform: translate(-50%, -50px);
+  letter-spacing: 1px;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.profile .name::before{
+  content: "";
+  position: absolute;
+  width: 15px; 
+  height: 15px;
+  background-color: #30553B;
+  top: 0; left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.profile img:hover + .name{
+  opacity: 1;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 20px rgb(86, 86, 198, 0.3);
+}
+/* Slider and txt */
+#preview{
+  background: #030303a6;
+  padding: 40px;
+  box-shadow: 10px 2px 14px #1a1a1a;
+}
+.cont-txt-slider{
+  padding: 40px;
+  position: relative;
+  margin-top: 20px;
+}
+.cont-txt-slider h1{
+  font-size: 7vh;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.cont-txt-slider p{
+  font-size: 18px;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+/* txt and Cards */
 .cont--img__Pdestac{
   display: flex;
   justify-content: center;
