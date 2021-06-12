@@ -71,24 +71,14 @@ body{
   font-weight: 400;
 }
 
-/*  */
-
-.proyect-inf{
-
-}
-
+/* Programas a necesitar */
 .txt-proyect-inf h1{
   font-size: 4rem;
   text-align: center;
   text-transform: uppercase;
   color: #030303a6;
 }
-.section-heading{
-  text-align: center;
-  font-size: 64px;
-  color: #5f6b67;
-  margin: 0 0 70;
-}
+
 .container_team{
   display: flex;
   justify-content: center;
@@ -168,22 +158,24 @@ body{
   font-weight: 600;
 }
 
-/* txt and Cards */
-.cont--img__Pdestac{
-  display: flex;
-  justify-content: center;
-}
-.img1__Pdestac{
+/* Galeria */
+.img-Galeria img{
   width: 100%;
   padding: 20px 0;
 }
-.txt--proyectoD h1{
-  color: #000;
-  padding: 1em 0 20px;
-  font-size: 1.5em;
+
+.txt--proyectoD{
+  text-align: center;
+  margin-top: 50px;
+}
+.txt--proyectoD h2{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-/*  */
+
+/*  Time */
 .title{
   margin-bottom: 60px;
   text-align: center;
@@ -234,18 +226,4 @@ body{
   font-size: 15px;
   font-weight: 300;
   color: #fff;
-}
-
-
-/* @media */
-@media (min-width:1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1300px;
-  }
-  .container-card .card img{
-    width: 300px;
-  }
-  .container-card{
-    min-height: 500px;
-  }
 }
